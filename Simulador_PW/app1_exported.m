@@ -88,12 +88,12 @@ classdef app1_exported < matlab.apps.AppBase
             R = app.REditField.Value;
             Rx_min = app.Rx_minEditField.Value;
             Rx_max = app.Rx_maxEditField.Value;
-            Rrange = linspace(Rx_max,Rx_min,50);
+            Rrange = linspace(Rx_min,Rx_max,50);
             for i=1:length(Rrange)
             Vab = V*((R1./(R1+R)).*((Rrange-R)./(R1+Rrange)));
             Vablin = V*((Rrange-R)./(R1+Rrange));
             end
-            A = [flipud(Vab') flipud(Vablin')];
+            A = [Rrange' Vab' Vablin'];
             [file,path] = uiputfile('*.csv');
             filename = fullfile(path,file);
             csvwrite(filename,A);
