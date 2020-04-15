@@ -4,7 +4,7 @@ clc
 
 D = csvread('vco.csv');
 
-%accediendo a las calumnas
+%accediendo a las columnas
 
 Num = D(:,1);  %número de (r,c) r: renglones, c: columnas
                % (:,1) => todos los renglones (:) de la primera col (1)
