@@ -1,0 +1,16 @@
+-IC:/Users/RRamirezC/Documents/GitHub/MeI_UNAM/data
+-IC:/Users/RRamirezC/Documents/GitHub/MeI_UNAM/data/DemodulacionAmp2019_grt_rtw
+-IC:/Program\ Files/MATLAB/R2019b/extern/include
+-IC:/Program\ Files/MATLAB/R2019b/simulink/include
+-IC:/Program\ Files/MATLAB/R2019b/rtw/c/src
+-IC:/Program\ Files/MATLAB/R2019b/rtw/c/src/ext_mode/common
+-IC:/Program\ Files/MATLAB/R2019b/toolbox/physmod/simscape/engine/sli/c/win64
+-IC:/Program\ Files/MATLAB/R2019b/toolbox/physmod/simscape/engine/core/c/win64
+-IC:/Program\ Files/MATLAB/R2019b/toolbox/physmod/simscape/compiler/core/c/win64
+-IC:/Program\ Files/MATLAB/R2019b/toolbox/physmod/network_engine/c/win64
+-IC:/Program\ Files/MATLAB/R2019b/toolbox/physmod/common/math/core/c/win64
+-IC:/Program\ Files/MATLAB/R2019b/toolbox/physmod/common/lang/core/c/win64
+-IC:/Program\ Files/MATLAB/R2019b/toolbox/physmod/common/external/library/c/win64
+-IC:/Program\ Files/MATLAB/R2019b/toolbox/physmod/common/foundation/core/c/win64
+-IC:/Program\ Files/MATLAB/R2019b/toolbox/physmod/powersys/facts/facts
+-IC:/Program\ Files/MATLAB/R2019b/toolbox/physmod/powersys/DR/DR
